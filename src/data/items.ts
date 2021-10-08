@@ -1,8 +1,8 @@
-import { title } from 'process'
+import { Item } from '../types/item'
 
-export const items = [
+export const items: Item[] = [
   {
-    date: new Date(2021, 9, 15),
+    date: new Date(2021, 9, 6),
     category: 'food',
     title: 'McDonalds',
     value: 32.12
@@ -20,7 +20,7 @@ export const items = [
     value: 2300
   },
   {
-    date: new Date(2021, 9, 18),
+    date: new Date(2021, 10, 16),
     category: 'salary',
     title: 'Salário',
     value: 4500
